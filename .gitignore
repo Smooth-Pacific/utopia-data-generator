@@ -1,0 +1,30 @@
+## C++ Ignores
+bin
+build
+lib
+Bin
+Build
+Lib
+
+*.a
+*.o
+*.so
+*.dll
+*.exe
+*.lib
+*.obj
+*.out
+
+## Python Ignores
+__pycache__
+env
+venv
+secret
+secrets
+
+## Files
+card_transaction.v1.csv
+
+## Misc
+*.secret
+secret*
