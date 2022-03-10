@@ -22,7 +22,8 @@ venv
 secret
 secrets
 
-## Files
+## Data
+output
 card_transaction.v1.csv
 
 ## Misc
