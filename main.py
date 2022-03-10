@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-import matplotlib as plt
 import pandas as pd
-import numpy as np
 
 from typing import (
     Text
@@ -21,7 +19,7 @@ def get_data(filename: Text) -> DataFrame:
     """
     df = pd.read_csv(filename)
 
-    return df
+    return DataFrame(df)
 
 def verify_valid_username() -> bool:
     """
@@ -44,6 +42,7 @@ def main() -> None:
     df = get_data(file_name)
 
     print(df.shape)
+    print(df.columns)
 
 if __name__ == "__main__":
     main()
